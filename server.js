@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-
+const passport = require('passport');
 
 
 
@@ -26,8 +26,11 @@ mongoose.connect(db)
 .then(() => console.log('db connected'))
 .catch(err => console.log(err));
 
-// some massage on start
-app.get('/', (req, res) => res.send('test'));
+// Passport initialize
+app.use(passport.initialize());
+
+// Passport config JWT
+require('./config/passport')(passport);
 
 
 
