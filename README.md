@@ -4,6 +4,7 @@ Social network application using Node.JS, react, MongoDB
 
 # Prerequisites
 * Node.js: 10.1.0
+* React
 * MongoDB 
 * bcryptjs: ^2.4.3
 * body-parser: ^1.18.2
