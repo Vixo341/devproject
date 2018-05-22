@@ -23,7 +23,7 @@ router.get('/test', (req,res) => res.json({msg: "Users works"}));
 
 
 
-//@route GET api/users/register
+//@route POST api/users/register
 router.post('/register', (req,res) => {
 const {errors, isValid} = validateRegisterInput(req.body);
 
