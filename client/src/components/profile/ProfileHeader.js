@@ -42,8 +42,7 @@ class ProfileHeader extends Component {
                   <a
                     className="text-white p-2"
                     href={profile.social.twitter}
-                    target="_blank"
-                  >
+                    target="_blank">
                     <i className="fab fa-twitter fa-2x" />
                   </a>
                 )}
