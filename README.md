@@ -2,19 +2,20 @@
 Social network application using Node.JS, react, MongoDB
 
 
-# Prerequisites
-* Node.js: 10.1.0
-* React
-* MongoDB 
-* bcryptjs: ^2.4.3
-* body-parser: ^1.18.2
-* express: ^4.16.3
-* gravatar: ^1.6.0
-* jsonwebtoken: ^8.2.1
-* mongoose: ^5.1.0
-* passport: ^0.4.0
-* passport-jwt: ^4.0.0
-* validator: ^10.2.0
+# You Can check Apllication
+##### To get started you must first download "Redux DevTools" you can do it here:
+[Redux DevTools for Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+
+##### If you have already downloaded Redux, then you can fully use the application just following  this link:
+[devProject Application](https://enigmatic-shore-48052.herokuapp.com/login)
+
+##### Login data:
+```
+login: test@gmail.com
+password: 123456
+
+you can also register yourself and check the possibilities of the site.
+```
 
 
 
@@ -30,7 +31,20 @@ cd devproject
 ```
 git clone https://github.com/Vixo341/devproject.git
 cd devproject
-npm i
-npm start server
-localhost:5000 (default)
+# Install dependencies for server
+npm install
+
+# Install dependencies for client
+npm run client-install
+
+# Run the client & server with concurrently
+npm run dev
+
+# Run the Express server only
+npm run server
+
+# Run the React client only
+npm run client
+
+# Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
