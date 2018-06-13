@@ -7,7 +7,7 @@ Social network application using Node.JS, react, MongoDB
 [Redux DevTools for Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 
 ##### If you have already downloaded Redux, then you can fully use the application just following  this link:
-[devProject Application](https://enigmatic-shore-48052.herokuapp.com/login)
+[devProject Application](https://enigmatic-shore-48052.herokuapp.com/)
 
 ##### Login data:
 ```
