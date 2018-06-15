@@ -6,6 +6,8 @@ Social network application using Node.JS, react, MongoDB
 ##### To get started you must first download "Redux DevTools" you can do it here:
 [Redux DevTools for Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 
+[Redux DevTools for Firefox](https://addons.mozilla.org/pl/firefox/addon/remotedev/)
+
 ##### If you have already downloaded Redux, then you can fully use the application just following  this link:
 [devProject Application](https://enigmatic-shore-48052.herokuapp.com/)
 
